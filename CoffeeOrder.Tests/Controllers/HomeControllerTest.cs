@@ -22,7 +22,7 @@ namespace CoffeeOrder.Tests.Controllers
             ViewResult result = controller.Index() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Welcome to ASP.NET MVC!", result.ViewBag.Message);
+            Assert.AreEqual("Welcome to Coffee Order site!", result.ViewBag.Message);
         }
 
         [TestMethod]
