@@ -10,7 +10,7 @@ namespace CoffeeOrder.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            ViewBag.Message = "Welcome to Coffee Order site!";
 
             return View();
         }
